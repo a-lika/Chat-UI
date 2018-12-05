@@ -1,0 +1,188 @@
+.register-form,
+.message-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 700px;
+    padding: 5%;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, rgb(62, 171, 175) 0%, rgb(65, 229, 235) 100%);
+    border-radius: 8px;
+    box-shadow: 1px 5px 20px rgb(80, 80, 80);
+    font-size: 25px;
+}
+
+.register-greeting {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.register-form input,
+.register-submit {
+    width: 90%;
+    max-width: 300px;
+    height: 25px;
+    margin: 1%;
+    padding: 1%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.register-submit {
+    max-width: 200px;
+    height: 40px;
+    background: rgb(247, 243, 45);
+    cursor: pointer;
+    margin-top: 5%;
+    box-shadow: 1px 1px 20px rgb(80, 80, 80);
+    transition: all 0.2s ease-in;
+}
+
+.register-submit:hover {
+    background: rgb(241, 240, 129);
+}
+
+.message-form {
+    justify-content: space-between;
+    background: linear-gradient(to bottom,rgb(255, 242, 229) 0%, rgb(250, 233, 212) 100%);
+    max-height: 100%;
+    padding: 2%;
+    height: 85vh;
+}
+
+.message-submit {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: rgb(65, 229, 235);
+    border: none;
+    box-shadow: 1px 1px 20px rgb(80, 80, 80);
+    transition: all 0.2s ease-in;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.message-input-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.message-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 90%;
+    height: 80%;
+    padding: 4%;
+    margin: 1%;
+    border-radius: 10px;
+    overflow-y: scroll;
+    word-break: break-all;
+}
+
+.message-area::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	background-color: #f5f5f5;
+}
+
+.message-area::-webkit-scrollbar {
+	width: 10px;
+	background-color: #f5f5f5;
+}
+
+.message-area::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: rgb(78, 77, 70);
+}
+
+.message-input {
+    width: 90%;
+    height: 25%;
+    margin: 1%;
+    padding: 1%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    user-select: none;
+}
+
+.status-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 10%;
+    padding: 1%;
+    border-radius: 5px; 
+    font-size: 18px;
+    background: rgb(78, 77, 70);
+    box-shadow: 1px 1px 10px rgb(80, 80, 80);
+}
+
+.status {
+    width: 25%;
+    text-align: center;
+    color: rgb(40, 241, 40);
+}
+
+.error-status {
+    color: rgb(255, 85, 85);
+}
+
+.logout-btn,
+.connect-btn {
+    width: 25%;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(255, 242, 229);
+    box-shadow: 1px 1px 20px rgb(80, 80, 80);
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.2s ease-in;
+}
+
+.message-submit:hover,
+.logout-btn:hover,
+.connect-btn:hover {
+    background: rgb(0, 247, 255);
+}
+
+.nickname {
+    font-size: 18px;
+    color: rgb(85, 84, 84);
+}
+
+.message-li {
+    list-style: none;
+    margin: 1%;
+    font-size: 16px;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.message-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-name {
+    color: rgb(17, 171, 177);
+}
+
+.message-time {
+    font-size: 13px;
+    color: grey;
+}
